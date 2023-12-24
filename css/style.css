@@ -1,0 +1,26 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+::placeholder {
+    opacity: 0.4 !important;
+}
+
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:invalid {
+    background-color: rgb(235, 33, 33);
+    border: 3px solid #ffa9a9;
+    /* box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, .25); */
+
+}
+
+small.error {
+    color: red;
+}
